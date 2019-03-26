@@ -71,7 +71,7 @@ Documentation on full usage of the `forcelayout` package is available in the `fo
 
 ### Testing
 
-In order to run tests, `pytest` is required
+In order to run tests, `pytest` is required:
 
 ```bash
 python3 -m pip install pytest
