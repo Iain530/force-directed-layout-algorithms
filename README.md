@@ -15,15 +15,37 @@ or
 python3 -m pip install -r requirements.txt
 ```
 
-### Submission Structure
+### Structure
 
 The implementation of the algorithms and functionality described in the dissertation:
 
 ```
-
+forcelayout
+├── algorithms
+│   ├── base_spring_layout.py
+│   ├── hybrid.py
+│   ├── neighbour_sampling.py
+│   ├── node.py
+│   ├── pivot.py
+│   ├── spring_force.py
+│   └── __init__.py
+├── distance.py
+├── draw.py
+├── forcelayout.py
+├── metrics.py
+├── utils.py
+├── README.md
+└── __init__.py
 ```
 
-Examples of usage of the algorithms are included in the `examples` folder.
+Locations of the three main algorithms of this project:
+- [Chalmers' 1996 algorithm](https://ieeexplore.ieee.org/document/567787) is implemented in `algorithms/neighbour_sampling.py`
+- [Hybrid Layout algorithm](https://ieeexplore.ieee.org/document/1173161) is implemented in `algorithms/hybrid.py`
+- [Pivot Layout algorithm](https://ieeexplore.ieee.org/document/1249012) is implemented in `pivot/hybrid.py`
+
+### Usage
+
+Documentation on full usage of the `forcelayout` package is available in the `forcelayout/README.md` [here](forcelayout/README.md)
 
 ### Examples
 
@@ -41,7 +63,7 @@ The size of dataset can be changed to any available size in `datasets/poker/` an
 Run it using the following commands:
 ```bash
 cd examples/
-# python3 poker_hands_layout.py <dataset size> <algorithm>
+# python3 poker_hands_layout.py [size] [brute | chalmers96 | hybrid | pivot]
 python3 poker_hands_layout.py 500 pivot
 ```
 
@@ -51,7 +73,7 @@ This is similar to the above example but will show an animated version of the la
 
 ```bash
 cd examples/
-# python3 poker_hands_layout.py <dataset size> <algorithm>
+# python3 poker_hands_layout.py [size] [brute | chalmers96 | hybrid | pivot]
 python3 animated_poker_hands_layout.py 500 pivot
 ```
 
@@ -64,10 +86,6 @@ cd examples/
 python3 iris_layout.py
 ```
 
-
-### Usage
-
-Documentation on full usage of the `forcelayout` package is available in the `forcelayout/README.md` [here](forcelayout/README.md)
 
 ### Testing
 
