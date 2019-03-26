@@ -1,0 +1,10 @@
+venv/*
+*.pyc
+.cache/*
+.pytest_cache/*
+*/.cache/*
+*/.pytest_cache/*
+.fuse_hidden*
+.ipynb_checkpoints/
+.coverage
+.mypy_cache
