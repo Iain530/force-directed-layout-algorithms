@@ -1,6 +1,6 @@
 # Force Directed Layout Algorithms for Python
 
-This package provides 3 force directed layout algorithms implemented in Python.
+This package provides 3 force directed layout algorithms implemented in Python and a brute force implementation.
 
 ## Basic Usage
 

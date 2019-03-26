@@ -86,6 +86,9 @@ cd examples/
 python3 iris_layout.py
 ```
 
+##### `examples/notebook_poker_layouts.ipynb`
+
+This is an example notebook creating layouts of the poker hands dataset. Jupyter notebook is required to run this which can be installed [here](https://jupyter.org/install).
 
 ### Testing
 
