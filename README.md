@@ -1,5 +1,4 @@
 # Force Directed Layout Algorithms for Python
-Iain Cattermole 2189570c
 
 ## Setup
 
@@ -16,8 +15,6 @@ python3 -m pip install -r requirements.txt
 ```
 
 ### Structure
-
-The implementation of the algorithms and functionality described in the dissertation:
 
 ```
 forcelayout
