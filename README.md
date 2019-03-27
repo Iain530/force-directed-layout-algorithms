@@ -14,27 +14,6 @@ or
 python3 -m pip install -r requirements.txt
 ```
 
-### Structure
-
-```
-forcelayout
-├── algorithms
-│   ├── base_spring_layout.py
-│   ├── hybrid.py
-│   ├── neighbour_sampling.py
-│   ├── node.py
-│   ├── pivot.py
-│   ├── spring_force.py
-│   └── __init__.py
-├── distance.py
-├── draw.py
-├── forcelayout.py
-├── metrics.py
-├── utils.py
-├── README.md
-└── __init__.py
-```
-
 Locations of the three main algorithms of this project:
 - [Chalmers' 1996 algorithm](https://ieeexplore.ieee.org/document/567787) is implemented in `algorithms/neighbour_sampling.py`
 - [Hybrid Layout algorithm](https://ieeexplore.ieee.org/document/1173161) is implemented in `algorithms/hybrid.py`

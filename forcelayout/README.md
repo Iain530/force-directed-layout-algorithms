@@ -6,6 +6,26 @@ This package provides 3 force-directed layout algorithms implemented in Python a
 - [Hybrid Layout algorithm](https://ieeexplore.ieee.org/document/1173161) is implemented in `algorithms.hybrid`
 - [Pivot Layout algorithm](https://ieeexplore.ieee.org/document/1249012) is implemented in `algorithms.pivot`
 
+## Structure
+
+```
+forcelayout
+├── algorithms
+│   ├── base_spring_layout.py
+│   ├── hybrid.py
+│   ├── neighbour_sampling.py
+│   ├── node.py
+│   ├── pivot.py
+│   ├── spring_force.py
+│   └── __init__.py
+├── distance.py
+├── draw.py
+├── forcelayout.py
+├── metrics.py
+├── utils.py
+└── __init__.py
+```
+
 ## Basic Usage
 
 These algorithms are designed for the visualisation of high-dimensional datasets using [force-directed graph drawing methods](https://en.wikipedia.org/wiki/Force-directed_graph_drawing). Datasets are expected to be a numpy array with shape `(N, D)` where `N` is the size of the dataset and `D` is the number of dimensions.
