@@ -15,9 +15,9 @@ python3 -m pip install -r requirements.txt
 ```
 
 Locations of the three main algorithms of this project:
-- [Chalmers' 1996 algorithm](https://ieeexplore.ieee.org/document/567787) is implemented in `algorithms/neighbour_sampling.py`
-- [Hybrid Layout algorithm](https://ieeexplore.ieee.org/document/1173161) is implemented in `algorithms/hybrid.py`
-- [Pivot Layout algorithm](https://ieeexplore.ieee.org/document/1249012) is implemented in `pivot/hybrid.py`
+- [Chalmers' 1996 algorithm](https://ieeexplore.ieee.org/document/567787) is implemented in `forcelayout/algorithms/neighbour_sampling.py`
+- [Hybrid Layout algorithm](https://ieeexplore.ieee.org/document/1173161) is implemented in `forcelayout/algorithms/hybrid.py`
+- [Pivot Layout algorithm](https://ieeexplore.ieee.org/document/1249012) is implemented in `forcelayout/algorithms/pivot.py`
 
 ### Usage
 
