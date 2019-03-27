@@ -42,7 +42,7 @@ Locations of the three main algorithms of this project:
 
 ### Usage
 
-Documentation on full usage of the `forcelayout` package is available in the `forcelayout/README.md` [here](forcelayout/README.md)
+[Documentation](forcelayout/README.md) on full usage of the `forcelayout` package is available in the `forcelayout/README.md`
 
 ### Examples
 

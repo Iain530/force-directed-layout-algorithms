@@ -1,6 +1,6 @@
 # Force Directed Layout Algorithms for Python
 
-This package provides 3 force directed layout algorithms implemented in Python and a brute force implementation.
+This package provides 3 force-directed layout algorithms implemented in Python and a brute force implementation.
 
 - [Chalmers' 1996 algorithm](https://ieeexplore.ieee.org/document/567787) is implemented in `algorithms.neighbour_sampling`
 - [Hybrid Layout algorithm](https://ieeexplore.ieee.org/document/1173161) is implemented in `algorithms.hybrid`

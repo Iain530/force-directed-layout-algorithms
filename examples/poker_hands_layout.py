@@ -11,12 +11,15 @@ algorithms = {
     'pivot': fl.Pivot,
 }
 
-if len(sys.argv) < 2 or sys.argv[2] not in algorithms:
+if len(sys.argv) < 2:
     print(f'\nusage: python3 poker_hands_layout.py <dataset size> <algorithm>')
     print('\tSizes: see datasets/poker')
     print('\tAvailable algorithms: brute, chalmers96, hybrid, pivot')
     exit(1)
 
+if len(sys.argv) > 2 and sys.argv[2] not in algorithms:
+    print('\tAvailable algorithms: brute, chalmers96, hybrid, pivot')
+    exit(1)
 
 data_set_size = int(sys.argv[1])
 poker_hands = load_poker(data_set_size)
@@ -38,6 +41,6 @@ spring_layout = fl.draw_spring_layout(dataset=poker_hands,
                                       algorithm_highlights=True)
 
 total = time.time() - start
-print(f'Layout time: {"%.2f" % total}s ({"%.1f" % (total / 60)} mins)')
+print(f'\nLayout time: {"%.2f" % total}s ({"%.1f" % (total / 60)} mins)')
 
 plt.show()
