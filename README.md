@@ -79,3 +79,11 @@ To run the test cases run the following command from the root directory:
 ```bash
 python3 -m pytest forcelayout/ tests/forcelayout
 ```
+
+Note that the test cases are written and run on Ubuntu 18.04 with Python 3.6.7 with Pytest 4.0.2.
+
+### Datasets
+
+I do not own the datasets in this repository, they can be accessed from their source at:
+- [Poker hands](https://archive.ics.uci.edu/ml/datasets/Poker+Hand)
+- [Iris](https://archive.ics.uci.edu/ml/datasets/iris)
